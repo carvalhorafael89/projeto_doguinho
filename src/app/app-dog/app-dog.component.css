@@ -1,0 +1,22 @@
+.margem1{
+  background-color: lightgray;
+  border-radius: 1vw;
+  margin: 3vw;
+  padding-left: 3vw;
+  display: flex;
+  flex-direction:column;
+}
+
+.centralizar{
+  justify-items: center;
+  justify-content: center;
+}
+
+.margem2{
+  background-color: lightgray;
+  justify-self: left;
+}
+
+.div{
+height: 1px;
+}
