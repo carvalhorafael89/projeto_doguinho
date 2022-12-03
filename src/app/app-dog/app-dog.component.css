@@ -3,20 +3,39 @@
   border-radius: 1vw;
   margin: 3vw;
   padding-left: 3vw;
-  display: flex;
-  flex-direction:column;
 }
 
 .centralizar{
   justify-items: center;
   justify-content: center;
+  display:flex;
 }
 
 .margem2{
-  background-color: lightgray;
-  justify-self: left;
+  background-color: black;
+  height: 300px;
+  width: 500px;
 }
 
 .div{
 height: 1px;
+margin-right: 3vw;
+background: black;
+flex-flow: row wrap;
+}
+
+.botao{
+  background-color: green;
+  border-radius: 2vw;
+  height: fit-content;
+  width: fit-content;
+  padding: 3vw;
+  transition: 0.3s;
+
+}
+
+.botao:hover{
+  transition: 0.3s;
+  cursor: pointer;
+  background-color: lightgreen;
 }

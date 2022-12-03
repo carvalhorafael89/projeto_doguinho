@@ -1,3 +1,4 @@
+import { NgIf } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -11,5 +12,11 @@ export class AppDogComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
+botao_init()
+{
+
+}
+
 
 }
