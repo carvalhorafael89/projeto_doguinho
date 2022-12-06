@@ -13,8 +13,9 @@
         <br>
         <br>
         <div class="centralizar">
-          <div class="botao"(click)="botao_init">INICIAR</div>
+          <div class="botao" (click)="getDog()">VER DOGUINHO</div>
+          <div *ngIf="dogs?.message"><img class="quadro" src='{{dogs?.message}}'></div>
         </div>
-      </div>
+        </div>
     </body>
 </html>

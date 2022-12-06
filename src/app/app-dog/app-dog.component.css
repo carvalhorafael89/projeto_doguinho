@@ -3,18 +3,14 @@
   border-radius: 1vw;
   margin: 3vw;
   padding-left: 3vw;
+  display: flex;
+  flex-flow: column wrap;
 }
 
 .centralizar{
   justify-items: center;
   justify-content: center;
-  display:flex;
-}
-
-.margem2{
-  background-color: black;
-  height: 300px;
-  width: 500px;
+  display: flex;
 }
 
 .div{
@@ -30,12 +26,23 @@ flex-flow: row wrap;
   height: fit-content;
   width: fit-content;
   padding: 3vw;
-  transition: 0.3s;
-
+  transition: 0.2s;
+  text-align: center;
 }
 
 .botao:hover{
   transition: 0.3s;
   cursor: pointer;
   background-color: lightgreen;
+}
+
+.botao:active{
+  background-color: white;
+}
+
+.quadro{
+  background-color: black;
+  height: 300px;
+  width: 500px;
+  object-fit: contain;
 }
